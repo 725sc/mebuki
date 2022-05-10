@@ -200,17 +200,19 @@ a:hover {
   height: 750px;
 }
 
-.sec1-inner1,
+/*.sec1-inner1,
 .sec1-inner2,
 .sec1-inner3 {
   display: block;
-}
+}*/
 
 .sec1-inner1 {
+  padding-top: 3%;
+  padding-bottom: 30%;
+}
+
+.sec1-inner-in {
   position: relative;
-  height: 30%;
-  padding-top: 100px;
-  padding-bottom: 80px;
 }
 
 .model1 {
@@ -223,40 +225,47 @@ a:hover {
 .sec1-title {
   font-size: 30px;
   position: absolute;
-  top: 70%;
-  right: 25%;
+  margin-top: 5%;
+  left: 50%;
   color: #fff;
   text-align: center;
 }
 
 .icon1 {
   position: absolute;
-  right: 27%;
-  top: 110%;
+  left: 50%;
+  margin-top: 10%;
   width: 25%;
 }
 
-.sec1-inner2 {
-  display: block;
+.sec1-inner2,
+.sec1-inner3 {
+  position: relative;
+  width: 100%;
+}
+
+.sec1-inner3 {
+  top: 20%;
 }
 
 .sec1-p1,
 .sec1-p2,
 .sec1-p3 {
-  position: relative;
+  position: absolute;
   margin: 0 auto;
   font-size: 1.7rem;
-  top: 150px;
-  width: 50%;
-  text-align: left;
 }
 
 .sec1-p1 {
+  left: 30%;
   padding: 10px 20px;
-  margin-top: 80px;
+  margin-top: -40px;
 }
 
 .sec1-p2 {
+  width: 50%;
+  left: 30%;
+  margin: 0 auto;
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #174040;
   padding: 20px;
@@ -273,8 +282,8 @@ a:hover {
 .sec1-p3 {
   margin: 0 auto;
   margin-top: 30px;
-  margin-left: 33%;
-  font-size: 25px;
+  margin-left: 35%;
+  font-size: 160%;
   line-height: 4rem;
 }
 
@@ -390,6 +399,10 @@ a:hover {
   text-align: center;
 }
 
+.eyeshadow3 {
+  height: 700px;
+}
+
 .model2 {
   width: 400px;
   height: 225px;
@@ -407,7 +420,7 @@ a:hover {
 .eyeshadow-box1,
 .eyeshadow-box2 {
   width: 70%;
-  height: 300px;
+  height: 50%;
   margin: 0 auto;
 }
 
