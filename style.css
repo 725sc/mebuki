@@ -166,7 +166,7 @@ a:hover {
 
 .header {
   background-color: #fff;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 .logo {
   text-align: center;
@@ -197,7 +197,7 @@ a:hover {
 /* ============================================================ */
 
 .section1 {
-  height: 1000px;
+  height: 750px;
 }
 
 .sec1-inner1,
@@ -214,16 +214,16 @@ a:hover {
 }
 
 .model1 {
-  width: 20%;
+  width: 17%;
   position: absolute;
   position: left;
-  left: 30%;
+  left: 28%;
 }
 
 .sec1-title {
-  font-size: 25px;
+  font-size: 30px;
   position: absolute;
-  top: 55%;
+  top: 70%;
   right: 25%;
   color: #fff;
   text-align: center;
@@ -232,8 +232,8 @@ a:hover {
 .icon1 {
   position: absolute;
   right: 27%;
-  top: 80%;
-  width: 20%;
+  top: 110%;
+  width: 25%;
 }
 
 .sec1-inner2 {
@@ -246,13 +246,14 @@ a:hover {
   position: relative;
   margin: 0 auto;
   font-size: 1.7rem;
-  top: 220px;
-  width: 600px;
+  top: 150px;
+  width: 50%;
   text-align: left;
 }
 
 .sec1-p1 {
   padding: 10px 20px;
+  margin-top: 80px;
 }
 
 .sec1-p2 {
@@ -264,47 +265,46 @@ a:hover {
   margin-bottom: 10px;
 }
 
-.sec1-p2-p {
+.sec1-p2 p {
   color: #174040;
+  line-height: 1.3;
 }
 
 .sec1-p3 {
+  margin: 0 auto;
   margin-top: 30px;
-  margin-left: 30%;
-  font-size: 2rem;
-  line-height: 3rem;
+  margin-left: 33%;
+  font-size: 25px;
+  line-height: 4rem;
 }
 
 /* ============================================================ */
 /* section2 */
 /* ============================================================ */
 
-.sec2-h2 {
-  font-size: 30px;
+.section2 h2 {
+  font-size: 40px;
   text-align: center;
-  margin: 50px 0;
+  margin: 280px 0 50px 0;
 }
 
 .sec2-inner {
   height: 80%;
 }
 
-/* eyebalm */
-
-.eyebalm1 {
-}
+/* eyebalmとeyeshadow共通 */
 
 .eyebalm1-inner-l,
 .eyeshadow-inner-l {
-  width: 30%;
+  width: 35%;
   position: absolute;
   position: left;
-  left: 20%;
+  left: 28%;
 }
 
 .eyebalm1-inner-r,
 .eyeshadow-inner-r {
-  width: 30%;
+  width: 32%;
   position: absolute;
   position: right;
   right: 20%;
@@ -317,16 +317,24 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.eyebalm-image,
+.eyeshadow-image {
+  width: 60%;
+}
+
 .title-jp,
-.title-price,
 .txt {
+  font-size: 15px;
+  margin-top: 1.5rem;
+}
+
+.title-price {
   font-size: 20px;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .txt {
-  margin-top: 2rem;
-  line-height: 1.2;
+  line-height: 1.7;
 }
 
 .btn {
@@ -337,43 +345,45 @@ a:hover {
   font-size: 10px;
 }
 
-.h4 {
+/* eyebalm */
+
+.eyebalm3 h4,
+.eyeshadow4 h4 {
   font-size: 24px;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 100px;
 }
 
 .seibun {
-  margin-top: 10%;
+  width: 50%;
+  margin-top: 20px;
 }
 
 .eyebalm2 {
   position: relative;
-  margin-top: 40%;
+  margin-top: 28%;
   margin-left: 50%;
 }
 
-.eyebalm-icon {
+.eyebalm2 p {
+  margin-left: 20px;
+}
+
+.icon2 {
   position: absolute;
-  width: 55%;
-  top: -30%;
-  left: -60%;
+  width: 42%;
+  left: -45%;
 }
 
 .eyebalm3 {
-  margin-top: 10%;
+  margin-top: 5%;
   text-align: center;
 }
 
 /* eyeshadow */
-
 .eyeshadow1 {
-  height: 600px;
-  margin-top: 30%;
-}
-
-.eyeshadow-inner-l,
-.eyeshadow-inner-r {
+  height: 450px;
+  margin-top: 10%;
 }
 
 .eyeshadow2 {
@@ -386,15 +396,17 @@ a:hover {
 }
 
 .color {
-  margin-top: 10%;
   display: block;
-  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  width: 20%;
 }
 
 /* eyeshadow-image-box */
 .eyeshadow-box1,
 .eyeshadow-box2 {
-  width: 1000px;
+  width: 70%;
   height: 300px;
   margin: 0 auto;
 }
@@ -420,7 +432,10 @@ a:hover {
 
 .box-eyeshadow-image {
   position: absolute;
-  left: 0%;
+}
+
+.box-inner {
+  padding-top: 8%;
 }
 
 .box-title-num {
@@ -435,23 +450,34 @@ a:hover {
   width: 150%;
 }
 
+.box-title-en,
+.box-detail {
+  padding-top: 8px;
+}
+
 .box-title-num,
 .box-title-jp {
-  font-size: 24px;
+  font-size: 150%;
 }
 
 .box1 {
   left: 7%;
-  margin-bottom: 1%;
+}
+
+.box1 img {
+  margin-top: -5%;
 }
 
 .box2 {
   left: 30%;
-  margin-top: 1%;
 }
 
 .box3 {
   left: 52%;
+}
+
+.box3 img {
+  margin-top: -3%;
 }
 
 .box4 {
@@ -465,7 +491,12 @@ a:hover {
 .eyeshadow4,
 .eyeshadow5 {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
+}
+
+.seibun-image {
+  width: 50%;
+  margin-top: 100px;
 }
 
 /* ============================================================ */
@@ -476,8 +507,11 @@ a:hover {
 }
 
 .section3-back {
-  margin-top: 300px;
+  margin-top: 200px;
   position: relative;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
 }
 
 .sec3-p1,
@@ -489,7 +523,7 @@ a:hover {
 }
 
 .sec3-p1 {
-  top: 50%;
+  top: 40%;
 }
 
 .sec3-p2 {
